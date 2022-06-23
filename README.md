@@ -50,3 +50,8 @@ export AWS_DEFAULT_REGION=us-east-1
 
 alias aws="aws --endpoint-url $LOCALSTACK_URL"
 ```
+## Python Based Installation
+```
+
+
+```
