@@ -51,6 +51,8 @@ alias aws="aws --endpoint-url $LOCALSTACK_URL"
 ```
 ## Python Based Installation
 ```
-
-
+#source: https://pypi.org/project/localstack/
+pip3 install localstack
+localstack start -d
+localstack status services
 ```
