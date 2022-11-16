@@ -96,5 +96,11 @@ root@swarm01:/myworkspace# localstack status services
 │ transcribe               │ ✔ available │
 └──────────────────────────┴─────────────┘
 
+root@swarm01:~# pip3 install awscli-local
+Successfully built awscli-local
+Installing collected packages: awscli-local
+Successfully installed awscli-local-0.20
+
+
 
 
