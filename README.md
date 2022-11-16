@@ -55,4 +55,46 @@ alias aws="aws --endpoint-url $LOCALSTACK_URL"
 pip3 install localstack
 localstack start -d
 localstack status services
-```
+
+root@swarm01:/myworkspace# localstack status services
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━┓
+┃ Service                  ┃ Status      ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━┩
+│ acm                      │ ✔ available │
+│ apigateway               │ ✔ available │
+│ cloudformation           │ ✔ available │
+│ cloudwatch               │ ✔ available │
+│ config                   │ ✔ available │
+│ dynamodb                 │ ✔ available │
+│ dynamodbstreams          │ ✔ available │
+│ ec2                      │ ✔ available │
+│ es                       │ ✔ available │
+│ events                   │ ✔ available │
+│ firehose                 │ ✔ available │
+│ iam                      │ ✔ available │
+│ kinesis                  │ ✔ available │
+│ kms                      │ ✔ available │
+│ lambda                   │ ✔ available │
+│ logs                     │ ✔ available │
+│ opensearch               │ ✔ available │
+│ redshift                 │ ✔ available │
+│ resource-groups          │ ✔ available │
+│ resourcegroupstaggingapi │ ✔ available │
+│ route53                  │ ✔ available │
+│ route53resolver          │ ✔ available │
+│ s3                       │ ✔ available │
+│ s3control                │ ✔ available │
+│ secretsmanager           │ ✔ available │
+│ ses                      │ ✔ available │
+│ sns                      │ ✔ available │
+│ sqs                      │ ✔ available │
+│ ssm                      │ ✔ available │
+│ stepfunctions            │ ✔ available │
+│ sts                      │ ✔ available │
+│ support                  │ ✔ available │
+│ swf                      │ ✔ available │
+│ transcribe               │ ✔ available │
+└──────────────────────────┴─────────────┘
+
+
+
