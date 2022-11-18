@@ -102,5 +102,21 @@ Installing collected packages: awscli-local
 Successfully installed awscli-local-0.20
 
 
+## Docker compose
+```
+root@minikube01 /myworkspace/local-stack # cat docker-compose.yml
+version: "3.4"
+services:
+  localstack:
+    container_name: localstack-test
+    image: localstack/localstack:latest
+    ports:
+      - 4566:4566
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
 
+networks:
+  default:
+    name: localstack
+```
 
