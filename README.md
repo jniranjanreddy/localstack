@@ -121,6 +121,7 @@ networks:
 ```
 ## Localstack docker baes
 ```
+```
 1. awscli need to be installed
 2. awscli-local to be installed
 3. docker run -itd -v "/var/run/docker.sock":"/var/run/docker.sock" -v "/volume/tmp/localstack":"/tmp/localstack" -p 4566:4566 --network localstack --name localstack localstack/localstack:latest
@@ -150,7 +151,5 @@ root@dev-server01:~# awslocal iam list-users
         }
     ]
 }
-
-
 
 ```
